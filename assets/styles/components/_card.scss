@@ -1,0 +1,18 @@
+#galery {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    .card {
+        align-items: center;
+        background-color: $background-color-2;
+        border-radius: 1em;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 15em;
+        .card-img {
+            width: 15em;
+        }
+    }
+}
