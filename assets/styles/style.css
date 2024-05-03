@@ -33,7 +33,7 @@ body {
 }
 
 .no-scroll {
-  overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }
 
 @keyframes appear {
@@ -53,6 +53,7 @@ body {
   margin-top: -10em;
   position: fixed;
   width: 100vw;
+  z-index: 1;
 }
 #navbar .navlist {
   align-items: center;
@@ -78,6 +79,7 @@ body {
 }
 #navbar .navlist .component-navlist .link-component-navlist:hover {
   text-decoration: underline;
+  opacity: 0.6;
 }
 #navbar .mobile-menu-icon {
   position: absolute;
@@ -142,20 +144,133 @@ body {
   }
 }
 #galery {
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 10em;
 }
 #galery .card {
   align-items: center;
   background-color: #000000;
   border-radius: 1em;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 15em;
+  height: 30em;
+  justify-content: end;
+  margin-bottom: 5em;
+  width: 20em;
+}
+#galery .card:hover {
+  transform: scale(1.03);
+  transition: 0.4s ease;
+}
+#galery .card:hover .info {
+  display: flex;
 }
 #galery .card .card-img {
-  width: 15em;
+  max-height: 200px;
+  max-width: 200px;
+}
+#galery .card .card-body {
+  height: 15em;
+}
+#galery .card .card-body .card-title {
+  font-size: 2em;
+  padding: 0.3em 0 0 0.5em;
+}
+#galery .card .card-body .card-text {
+  padding: 1em 0 1em 1em;
+  text-align: start;
+}
+#galery .card .card-body .card-link {
+  align-items: center;
+  background-color: #1d4eaf;
+  color: #ffffff;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  margin: auto;
+  text-decoration: none;
+  width: 80%;
+}
+#galery .card .card-body .card-link:hover {
+  background-color: #ffffff;
+  color: #1d4eaf;
+  transition: 0.4s ease;
+}
+#galery .card .info {
+  align-items: center;
+  background-color: #313131;
+  border-radius: 1em;
+  display: none;
+  flex-direction: column;
+  height: 30em;
+  justify-content: center;
+  position: absolute;
+  width: 80vw;
+}
+#galery .card .info .info-title {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+#galery .card .info .character {
+  display: flex;
+  flex-direction: row;
+}
+#galery .card .info .character .status {
+  display: flex;
+  flex-direction: column;
+}
+#galery .card .info .character .status .status-text {
+  font-size: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+#galery .card .info .character .img-info {
+  max-height: 200px;
+  max-width: 250px;
+}
+#galery .card .info .info-link {
+  align-items: center;
+  background-color: #1d4eaf;
+  color: #ffffff;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  margin: 0;
+  text-decoration: none;
+  width: 20em;
+}
+#galery .card .info .info-link:hover {
+  background-color: #ffffff;
+  color: #1d4eaf;
+  transition: 0.4s ease;
+}
+
+@media screen and (min-width: 1080px) {
+  #galery .card {
+    width: 25em;
+  }
+  #galery .card .info {
+    align-items: center;
+    height: 30em;
+    justify-content: center;
+    margin: auto auto auto 0;
+    position: absolute;
+    width: 30em;
+  }
+  #galery .card .info .info-title {
+    font-size: 2em;
+    text-align: center;
+  }
+  #galery .card .info .character .status .status-text {
+    font-size: 1.2em;
+  }
+  #galery .card .info .character .img-info {
+    max-height: 300px;
+    max-width: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */

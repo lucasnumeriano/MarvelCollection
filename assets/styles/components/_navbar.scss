@@ -6,6 +6,7 @@
     margin-top: -10em;
     position: fixed;
     width: 100vw;
+    z-index: 1;
     .navlist {
         align-items: center;
         animation: appear .4s linear;
@@ -27,6 +28,7 @@
                 text-decoration: none; 
                 &:hover {
                     text-decoration: underline;
+                    opacity: .6;
                 }
             }
         }
