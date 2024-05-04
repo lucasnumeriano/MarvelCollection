@@ -1,15 +1,19 @@
 @charset "UTF-8";
 @import "varieble";
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: "Bangers", Arial, sans-serif;
 }
 
 body {
     background-color: $background-color-2;
     color: $font-color-2;
+    font-family: "Roboto", Arial, sans-serif;
+    footer {
+        padding-bottom: 3em;
+    }
 }
 .on {
     display: flex !important;
@@ -29,6 +33,12 @@ body {
     margin: .1em auto;
     text-align: center;
     width: 80%;
+}
+
+.paragraph-footer {
+    font-size: 1em;
+    margin: auto;
+    text-align: center;
 }
 
 .no-scroll {
