@@ -1,5 +1,7 @@
 # Marvel Collection
 
+![Marvel](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1x7zurbps6occ.cloudfront.net%2Fproduct%2Fxlarge%2F587591-166585.jpg&f=1&nofb=1&ipt=f98b65794380b1744b125853c9e52a673a3a903b741ba3acbfe5bf699da3cf93&ipo=images)
+
 MarvelCollection is a collaborative repository dedicated to gathering a diverse collection of the most iconic heroes and villains from the Marvel universe. Marvel enthusiasts are invited to fork this repository, add their favorite hero or villain, and contribute to this growing gallery of characters. From the legendary Avengers to the cunning villains, this repository is home to all the figures that have shaped the exciting world of Marvel comics. Join us and leave your mark on the Marvel universe!
 
 # Website Content
@@ -13,7 +15,7 @@ There is always something to contribute to a project, whether you're a novice or
 
 # How Can I Contribute?
 
-Please refer to the file [contributing_pt-BR](https://github.com/lucasnumeriano/MarvelCollection/master/contributing_pt-BR.md) to learn how to contribute!
+Please refer to the file [contributing_en-US](https://github.com/lucasnumeriano/MarvelCollection/master/contributing_en-US.md) to learn how to contribute!
 
 And that's it!
 Follow these steps to make your first pull request.
