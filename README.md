@@ -15,7 +15,7 @@ There is always something to contribute to a project, whether you're a novice or
 
 # How Can I Contribute?
 
-Please refer to the file [contributing_pt-BR](https://github.com/lucasnumeriano/MarvelCollection/master/contributing_pt-BR.md) to learn how to contribute!
+Please refer to the file [contributing_en-US](https://github.com/lucasnumeriano/MarvelCollection/master/contributing_en-US.md) to learn how to contribute!
 
 And that's it!
 Follow these steps to make your first pull request.
