@@ -26,7 +26,7 @@ Not everyone is aware of all the tools out there, no matter how easy or complex 
 
 ## via html
 
-Use the code example below to add your own card. Just paste it inside the `section` with an id of `galery`
+Use the code example below to add your own card. Just paste it inside the `div` with an id of `container`
 
 ```html
 <div class="card">
@@ -60,6 +60,8 @@ To precisely know the level of powers of your character you can check on the [Ma
 ![](https://github.com/lucasnumeriano/MarvelCollection/blob/main/assets/images/power-rating.png)
 
 Copy this code and paste it into the index.html file to make your changes. Test it on your own system and then create a pull request.
+
+And don't worry, the position of the cards are changed randomly with JavaScript every time the page is reloaded, so your card may be at the bottom of the page for you, but it may be at the top for someone else. ;)
 
 If more than 100 characters are added to this file, we can expand this project to include features like searching and filtering.
 

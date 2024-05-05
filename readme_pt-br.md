@@ -26,7 +26,7 @@ Não é todo mundo que está ciente de todas as ferramentas presentes no mundo, 
 
 ## via html
 
-Use o exemplo de código abaixo para adicionar seu próprio card. Basta colar dentro da `section` com um id de `galery`
+Use o exemplo de código abaixo para adicionar seu próprio card. Basta colar dentro da `div` com um id de `container`
 
 ```html
 <div class="card">
@@ -60,6 +60,8 @@ Para saber precisamente o nível dos poderes do seu personagem você pode consul
 ![](https://github.com/lucasnumeriano/MarvelCollection/blob/main/assets/images/power-rating.png)
 
 Copie este código e cole no arquivo index.html para fazer suas alterações. Teste-o em seu próprio sistema e depois crie uma solicitação de pull.
+
+E não se preucupe, a posição dos cards são alteradas aleatoriamente com JavaScript toda vez que a página é recarregada, então o seu card pode estar no fundo da página para você, mas, pode estar no topo para outra pessoa. ;)
 
 Se mais de 100 personagens forem adicionados a este arquivo, podemos expandir este projeto para incluir funcionalidades como pesquisa e filtragem.
 
