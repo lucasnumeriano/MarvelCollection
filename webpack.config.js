@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   mode: 'production',
   entry: {
-    main: ['./src/menu.js']
+    main: ['./src/menu.js', './src/changeCardPosition.js']
   },
   output: {
     filename: 'index.js',
