@@ -344,13 +344,31 @@ body footer {
 #about {
   margin-top: 10em;
 }
+#about .title {
+  font-size: 2em;
+}
+#about .paragraph {
+  text-align: center;
+  width: 90%;
+}
 
 #community-members {
   align-items: center;
   display: flex;
   flex-direction: column;
   padding: 5em 0 5em 0;
+  text-align: center;
 }
 #community-members h2 {
+  max-width: 80%;
   padding-bottom: 1.5em;
+}
+
+@media screen and (min-width: 1080px) {
+  #about .title {
+    font-size: 2.5em;
+  }
+  #about .paragraph {
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */

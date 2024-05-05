@@ -1,5 +1,12 @@
 #about {
     margin-top: 10em;
+    .title {
+        font-size: 2em;
+    }
+    .paragraph {
+        text-align: center;
+        width: 90%;
+    }
 }
 
 #community-members {
@@ -7,7 +14,20 @@
     display: flex;
     flex-direction: column;
     padding: 5em 0 5em 0;
+    text-align: center;
     h2 {
+        max-width: 80%;
         padding-bottom: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    #about {
+        .title {
+            font-size: 2.5em;
+        }
+        .paragraph {
+            width: 80%;
+        }
     }
 }
