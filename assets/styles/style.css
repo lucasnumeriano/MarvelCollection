@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #111;
   color: #ffffff;
   font-family: "Roboto", Arial, sans-serif;
 }
@@ -64,6 +64,15 @@ body footer {
   position: fixed;
   width: 100vw;
   z-index: 1;
+}
+#navbar .logo {
+  align-items: center;
+  color: #ff0000;
+  display: flex;
+  font-family: "Bangers", sans-serif;
+  font-size: 2em;
+  padding-left: 0.7em;
+  text-decoration: none;
 }
 #navbar .navlist {
   align-items: center;
@@ -158,7 +167,7 @@ body footer {
 }
 #galery .card {
   align-items: center;
-  background-color: #000000;
+  background-color: #111;
   border-radius: 1em;
   border: 1px solid #ffffff;
   display: flex;
@@ -331,4 +340,17 @@ body footer {
   .power-list-component {
     min-width: 1em;
   }
+}
+#about {
+  margin-top: 10em;
+}
+
+#community-members {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5em 0 5em 0;
+}
+#community-members h2 {
+  padding-bottom: 1.5em;
 }/*# sourceMappingURL=style.css.map */

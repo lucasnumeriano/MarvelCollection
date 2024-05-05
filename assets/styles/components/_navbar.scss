@@ -7,6 +7,15 @@
     position: fixed;
     width: 100vw;
     z-index: 1;
+    .logo {
+        align-items: center;
+        color: $font-color-5;
+        display: flex;
+        font-family: 'Bangers', sans-serif;
+        font-size: 2em;
+        padding-left: .7em;
+        text-decoration: none;
+    }
     .navlist {
         align-items: center;
         animation: appear .4s linear;
